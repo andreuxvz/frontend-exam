@@ -1,6 +1,6 @@
 # frontend-exam
 Belatrix test frontend
-
+## Project setup
 Steps: 
 1. npm install
 2. npm install -g json-server
