@@ -1,4 +1,4 @@
-import { MutationTree } from 'Vuex';
+import { MutationTree } from 'vuex';
 import User from '@/store/modules/auth/models/user.model';
 import AuthState from "@/store/modules/auth/models/auth-state.model";
 
