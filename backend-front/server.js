@@ -6,6 +6,7 @@ const app = express();
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 const middlewares = jsonServer.defaults();
+const portJson = process.env.PORT || 3000;
 server.use(middlewares)
 //const port = process.env.PORT || 3000;
 
@@ -33,5 +34,7 @@ module.exports = (req, res, next) => {
   }
 }
 
+
+server.listen(portJson);
 app.listen(port);
 console.log('server is running ok', __dirname + '../dist/');
