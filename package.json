@@ -6,12 +6,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "node backend-front/server.js" 
+    "start": "node backend-front/server.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap-vue": "^2.0.0-rc.11",
     "express": "^4.16.4",
+    "json-server": "^0.14.2",
     "vee-validate": "^2.1.5",
     "vue": "^2.5.21",
     "vue-axios": "^2.1.4",
